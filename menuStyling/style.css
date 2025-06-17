@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 40px;
+    background-color: cadetblue;
+    justify-content: space-around;
+    align-items: center;
+}
+header h2{
+    background-color: burlywood;
+
+}
+header nav{
+    background-color: blue;
+    display: flex;
+}
+header nav >li{
+    list-style: none;
+    margin-left: 20px;
+
+}
+header div input:focus{
+    outline: none;
+}
+header div input::placeholder{
+    position: absolute;
+    left: 10px;
+}
