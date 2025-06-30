@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 40px;
+    background-color: cadetblue;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav{
+    display: flex;
+}
+header nav >li{
+    list-style: none;
+    margin-left: 25px;
+}
+header nav > li i{
+    font-size: 10px;
+}
+header nav > li:hover >i {
+    transform: rotate(180deg);
+    transition: .2s;
+}
+header nav .sevice{
+    position: relative;
+}
+header nav .service .lang{
+    position: absolute;
+    background-color: cadetblue;
+    width: 120px;
+    display: none;
+}
+header nav .service:hover >.lang {
+    display: block;
+}
+header nav .service  .lang > li{
+    list-style: none;
+    height: 25px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+header nav .service .lang .java li{
+    list-style: none;
+    border-bottom: 1px solid;
+}
+header nav .service .lang .java{
+    position:absolute;
+    background-color: cadetblue;
+    right: 120px;
+    width: 100px;
+    display: none;
+}
+header nav .service .lang li:first-child:hover .java{
+    display: block;
+}
+header nav .service .lang .python li{
+    list-style: none;
+    border-bottom: 1px solid;
+}
+header nav .service .lang .python{
+    position:absolute;
+    right: 120px;
+    background-color: cadetblue;
+    width: 120px;
+    display: none;
+}
+header nav .service .lang .python-hover:hover .python{
+    display: block;
+
+}
+header div input{
+    height: 20px;
+}
+header div{
+    position: relative;
+}
+header div i{
+    position: absolute;
+    right: 7px;
+    top: 4px;
+}
+header div input:focus{
+    outline: none;
+}
+header div input::placeholder{
+    position: absolute;
+    left: 10px;
+}
