@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    background-image: url(nature.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+div{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parallax > h1{
+    background-color: #343333;
+    color: aliceblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    font-weight: 10;
+}
+.one, .two,.three {
+    display: flex;
+    flex-direction: column;
+}
+.one > h2, .two > h2, .three > h2{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+    font-weight: 5;
+}
+.one{
+    background-color: #343333;
+    color: aliceblue;
+}
+.one > p, .two > p, .three > p{
+    padding: 10px;
+}
+.nature >  h1{
+    background-color: #343333;
+    color: aliceblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    font-weight: 10;
+}
+.two{
+    background-color: #343333;
+    color: aliceblue;
+}
+.look > h1{
+    background-color: #343333;
+    color: aliceblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    font-weight: 10;
+}
+.three{
+    background-color: #343333;
+    color: aliceblue;
+}
+.ending > h1{
+    background-color: #343333;
+    color: aliceblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    font-weight: 10;
+}
